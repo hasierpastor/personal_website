@@ -594,6 +594,14 @@ body {
   padding: 0;
 }
 
+.contact-link {
+  color: #131313;
+}
+
+.contact-link:hover {
+  color: #48b14d;
+}
+
 .social-icons li a {
   color: #131313;
   background: rgba(42, 41, 41, 0);
