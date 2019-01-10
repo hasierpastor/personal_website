@@ -594,11 +594,11 @@ body {
   padding: 0;
 }
 
-.contact-link {
+#contact-link {
   color: #131313;
 }
 
-.contact-link:hover {
+#contact-link:hover {
   color: #48b14d;
 }
 
