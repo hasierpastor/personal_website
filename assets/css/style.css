@@ -704,6 +704,20 @@ body {
 /* 08. PORTFOLIO
 =================================================*/
 
+.portfolio-link:link {
+  text-decoration: none;
+  color: black;
+}
+.portfolio-link:visited {
+  color: black;
+}
+.portfolio-link:hover {
+  color: black;
+}
+.portfolio-link:active {
+  color: black;
+}
+
 #portfolio {
   padding: 90px 0 80px;
   background: #fff;
