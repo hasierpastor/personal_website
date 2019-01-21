@@ -703,7 +703,7 @@ body {
 
 /* 08. PORTFOLIO
 =================================================*/
-
+/* 
 .portfolio-link:link {
   text-decoration: none;
   color: black;
@@ -716,7 +716,7 @@ body {
 }
 .portfolio-link:active {
   color: black;
-}
+} */
 
 #portfolio {
   padding: 90px 0 80px;
