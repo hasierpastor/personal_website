@@ -61,9 +61,11 @@
   }
   .profile-pic img {
     padding: 2px;
-    margin-top: 12px;
-		margin-bottom: 12px;
-		margin-right: 25px'
+    margin-top: 20px;
+    margin-bottom: 12px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .home-text h1 {
     font-size: 2.2em;
@@ -71,8 +73,7 @@
     line-height: 60px;
   }
   .home-text h3 {
-    font-size: 1.6em;
-    margin-bottom: 5px;
+    visibility: hidden;
   }
   .arrow {
     font-size: 3em;
