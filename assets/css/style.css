@@ -558,6 +558,15 @@ body {
 /* 06. ABOUT
 =================================================*/
 
+#profile-pic {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border: solid 5px #4285f4;
+  margin-bottom: 1.75em;
+}
+
 #about {
   padding: 90px 0 75px;
   background: #fff;
