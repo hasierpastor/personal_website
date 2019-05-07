@@ -191,220 +191,221 @@
     width: 45px;
   }
 
-  #about-me img {
+  /* #about-me img {
     display: block;
     max-width: 100%;
     height: auto;
   }
-}
+} */
 
-/* XX. TABLET
+  /* XX. TABLET
 =================================================*/
 
-@media only screen and (min-width: 768px) and (max-width: 1280px) {
-  /* NAVIGATION */
-  .logo {
-    padding-top: 25px;
-    -webkit-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
+  @media only screen and (min-width: 768px) and (max-width: 1280px) {
+    /* NAVIGATION */
+    .logo {
+      padding-top: 25px;
+      -webkit-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out;
+    }
+    .navigation-menu .navbar-nav li a {
+      padding: 30px 11px;
+      font-size: 12px;
+    }
+    .nav-bg .navigation-menu .navbar-nav li a {
+      padding: 30px 11px;
+      font-size: 12px;
+    }
+    .nav-bg .logo {
+      padding-top: 28px;
+    }
+    /* ABOUT */
+    .description {
+      max-width: 100%;
+      width: 30em;
+    }
+    .facts {
+      margin-top: 30px;
+      margin-left: 10px;
+    }
+    .count-item {
+      margin-bottom: 20px;
+    }
+    /* TESTIMONIAL */
+    .testimonial-slider h2 {
+      font-size: 1.4em;
+    }
   }
-  .navigation-menu .navbar-nav li a {
-    padding: 30px 11px;
-    font-size: 12px;
-  }
-  .nav-bg .navigation-menu .navbar-nav li a {
-    padding: 30px 11px;
-    font-size: 12px;
-  }
-  .nav-bg .logo {
-    padding-top: 28px;
-  }
-  /* ABOUT */
-  .description {
-    max-width: 100%;
-    width: 30em;
-  }
-  .facts {
-    margin-top: 30px;
-    margin-left: 10px;
-  }
-  .count-item {
-    margin-bottom: 20px;
-  }
-  /* TESTIMONIAL */
-  .testimonial-slider h2 {
-    font-size: 1.4em;
-  }
-}
 
-/* XX. LAPTOP 1024 SCREEN
+  /* XX. LAPTOP 1024 SCREEN
 =================================================*/
 
-@media only screen and (min-width: 766px) and (max-width: 1024px) {
-  /* TYPOGRAPHY */
-  h2 {
-    font-size: 2.3em;
+  @media only screen and (min-width: 766px) and (max-width: 1024px) {
+    /* TYPOGRAPHY */
+    h2 {
+      font-size: 2.3em;
+    }
+    h4 {
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    p {
+      font-size: 14px;
+    }
+    /* GENERAL */
+    .btn {
+      font-size: 14px;
+    }
+    .btn-lg {
+      padding: 18px 48px;
+      font-size: 16px;
+    }
+    /* NAVIGATION */
+    .logo a {
+      font-size: 0.8em;
+    }
+    .navigation-menu .navbar-nav li a {
+      font-size: 0.7em;
+    }
+    .nav-bg .logo {
+      padding-top: 18px;
+      -webkit-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out;
+    }
+    .nav-bg .navigation-menu .navbar-nav li a {
+      color: #131313;
+      padding: 18px 11px;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      font-size: 0.7em;
+    }
+    /* HOME */
+    .home-text h1 {
+      font-size: 2.6em;
+      line-height: 50px;
+      margin-top: 20px;
+    }
+    .home-text h3 {
+      font-size: 1.3em;
+    }
+    /* .profile-pic img {
+      width: 100px;
+      height: 100px;
+    } */
+    .arrow {
+      font-size: 2em;
+      width: 40px;
+      height: 40px;
+      bottom: 30px;
+    }
+    .lift {
+      bottom: 44px;
+    }
+    /* ABOUT */
+    .facts {
+      float: right;
+      margin-top: 30px;
+    }
+    .numscroller {
+      font-size: 1.8em;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .count-name-intro {
+      font-size: 16px;
+      font-weight: 600;
+    }
+    /* PORTFOLIO */
+    .filter {
+      font-size: 0.9em;
+      font-weight: 600;
+    }
+    .grid figure {
+      margin: 2px;
+      padding: 0;
+      min-width: 90%;
+      max-width: 90%;
+      max-height: 90%;
+      width: 48%;
+    }
+    /* SERVICES */
+    .services-list .col-md-3 {
+      padding: 0;
+      margin-right: 75px;
+    }
+    .testimonial-slider h2 {
+      font-size: 1.5em;
+    }
   }
-  h4 {
-    font-weight: 600;
-    margin-bottom: 16px;
-  }
-  p {
-    font-size: 14px;
-  }
-  /* GENERAL */
-  .btn {
-    font-size: 14px;
-  }
-  .btn-lg {
-    padding: 18px 48px;
-    font-size: 16px;
-  }
-  /* NAVIGATION */
-  .logo a {
-    font-size: 0.8em;
-  }
-  .navigation-menu .navbar-nav li a {
-    font-size: 0.7em;
-  }
-  .nav-bg .logo {
-    padding-top: 18px;
-    -webkit-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-  }
-  .nav-bg .navigation-menu .navbar-nav li a {
-    color: #131313;
-    padding: 18px 11px;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    font-size: 0.7em;
-  }
-  /* HOME */
-  .home-text h1 {
-    font-size: 2.6em;
-    line-height: 50px;
-    margin-top: 20px;
-  }
-  .home-text h3 {
-    font-size: 1.3em;
-  }
-  .profile-pic img {
-    width: 100px;
-    height: 100px;
-  }
-  .arrow {
-    font-size: 2em;
-    width: 40px;
-    height: 40px;
-    bottom: 30px;
-  }
-  .lift {
-    bottom: 44px;
-  }
-  /* ABOUT */
-  .facts {
-    float: right;
-    margin-top: 30px;
-  }
-  .numscroller {
-    font-size: 1.8em;
-    font-weight: 600;
-    margin-bottom: 10px;
-  }
-  .count-name-intro {
-    font-size: 16px;
-    font-weight: 600;
-  }
-  /* PORTFOLIO */
-  .filter {
-    font-size: 0.9em;
-    font-weight: 600;
-  }
-  .grid figure {
-    margin: 2px;
-    padding: 0;
-    min-width: 90%;
-    max-width: 90%;
-    max-height: 90%;
-    width: 48%;
-  }
-  /* SERVICES */
-  .services-list .col-md-3 {
-    padding: 0;
-    margin-right: 75px;
-  }
-  .testimonial-slider h2 {
-    font-size: 1.5em;
-  }
-}
 
-/* XX. 
+  /* XX. 
 =================================================*/
 
-@media only screen and (min-width: 768px) {
-  /* PRELOADER */
-  .preloader {
-    height: 60px;
-    width: 60px;
-    margin-top: -30px;
-    margin-left: -30px;
+  @media only screen and (min-width: 768px) {
+    /* PRELOADER */
+    .preloader {
+      height: 60px;
+      width: 60px;
+      margin-top: -30px;
+      margin-left: -30px;
+    }
+    .preloader:before {
+      left: -2px;
+      top: -2px;
+      border-width: 2px;
+    }
+    .preloader > .icon {
+      height: 37.5px;
+      width: 15.9px;
+      margin-top: -18.75px;
+      margin-left: -7.95px;
+    }
+    /* NAVIGATION */
+    .custom-navbar {
+      padding: 0px;
+      background: 0 0;
+    }
+    .custom-navbar.top-nav-collapse {
+      padding: 0px;
+      background: #fff;
+      border-bottom: 1px solid #f3f3f3;
+      -webkit-transition: all 0.8s;
+      transition: all 0.8s;
+    }
+    /* BLOG POST */
+    #header .site-heading,
+    #header .post-heading,
+    #header .page-heading {
+      padding: 150px 0;
+    }
+    #header .site-heading h1,
+    #header .page-heading h1 {
+      font-size: 80px;
+    }
+    #header .post-heading h1 {
+      font-size: 55px;
+    }
+    #header .post-heading .subheading {
+      font-size: 30px;
+    }
   }
-  .preloader:before {
-    left: -2px;
-    top: -2px;
-    border-width: 2px;
-  }
-  .preloader > .icon {
-    height: 37.5px;
-    width: 15.9px;
-    margin-top: -18.75px;
-    margin-left: -7.95px;
-  }
-  /* NAVIGATION */
-  .custom-navbar {
-    padding: 0px;
-    background: 0 0;
-  }
-  .custom-navbar.top-nav-collapse {
-    padding: 0px;
-    background: #fff;
-    border-bottom: 1px solid #f3f3f3;
-    -webkit-transition: all 0.8s;
-    transition: all 0.8s;
-  }
-  /* BLOG POST */
-  #header .site-heading,
-  #header .post-heading,
-  #header .page-heading {
-    padding: 150px 0;
-  }
-  #header .site-heading h1,
-  #header .page-heading h1 {
-    font-size: 80px;
-  }
-  #header .post-heading h1 {
-    font-size: 55px;
-  }
-  #header .post-heading .subheading {
-    font-size: 30px;
-  }
-}
 
-/* XX. 
+  /* XX. 
 =================================================*/
 
-@media only screen and (min-width: 1200px) {
-  /* PRELOADER */
-  .preloader {
-    height: 60px;
-    width: 60px;
-    margin-top: -30px;
-    margin-left: -30px;
-  }
-  .preloader > .icon {
-    height: 50px;
-    width: 21.2px;
-    margin-top: -25px;
-    margin-left: -10.6px;
+  @media only screen and (min-width: 1200px) {
+    /* PRELOADER */
+    .preloader {
+      height: 60px;
+      width: 60px;
+      margin-top: -30px;
+      margin-left: -30px;
+    }
+    .preloader > .icon {
+      height: 50px;
+      width: 21.2px;
+      margin-top: -25px;
+      margin-left: -10.6px;
+    }
   }
 }
