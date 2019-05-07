@@ -563,6 +563,7 @@ body {
   width: 100%;
   max-width: 200px;
   height: auto;
+  max-height: 200px;
   border: solid 5px #4285f4;
   margin-bottom: 1.75em;
 }
