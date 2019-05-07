@@ -72,7 +72,7 @@
     line-height: 60px;
   }
   .home-text h4 {
-    font-size: 1.6em;
+    visibility: hidden;
   }
   .arrow {
     font-size: 3em;
