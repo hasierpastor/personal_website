@@ -60,9 +60,9 @@
     top: 45%;
   }
   .profile-pic img {
-    padding: 0;
-    margin: 10px;
-    margin-bottom: 16px;
+    padding: 2px;
+    margin-top: 8px;
+    margin-bottom: 12px;
   }
   .home-text h1 {
     font-size: 2.2em;
@@ -76,7 +76,7 @@
   .arrow {
     font-size: 3em;
     bottom: 90px;
-    margin: 2px;
+    margin: auto;
     width: 40px;
     height: 40px;
   }
