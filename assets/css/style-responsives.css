@@ -78,8 +78,24 @@
     font-size: 1.2em;
     margin: 2px;
   }
+
   .arrow {
-    visibility: hidden;
+    color: #fff;
+    font-size: 2em;
+    white-space: nowrap;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    left: 0;
+    margin: auto;
+    width: 5px;
+    height: 5px;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 750ms ease-in-out;
+    -ms-transition: all 750ms ease-in-out;
+    -o-transition: all 750ms ease-in-out;
+    transition: all 750ms ease-in-out;
+    z-index: 100;
   }
 
   .lift {
