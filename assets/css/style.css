@@ -561,7 +561,7 @@ body {
 #about-me img {
   border-radius: 50%;
   width: 100%;
-  max-width: 200px;
+  /* max-width: 200px; */
   height: auto;
   max-height: 200px;
   border: solid 5px #4285f4;
